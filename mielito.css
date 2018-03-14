@@ -1,0 +1,166 @@
+body {
+	/*border: 1px solid red;*/
+	/*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Caveat', cursive;
+    /*background-color: #fff2f4;*/
+    background: url(https://image.freepik.com/free-photo/colorful-heart_1160-637.jpg);
+    /*background-image: url('images/corazon.jpg');*/
+    margin: 0;
+}
+
+.centrado {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titulo {
+	background-color: #f0e68c; /*color kahki*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logo {
+	/*border: 1px solid green;*/
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	color: #bc8f8f; /*rosybrown*/
+	text-shadow: 1px 1px 0 white;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+.logo:before {
+	content: '⋆ ';
+}
+
+.logo:after {
+	content: ' ⋆';
+}
+
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	padding-right: 0px;
+	font-size: 25px;
+	text-shadow: 1px 1px 0 black;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #e53e00;
+}
+
+.menu li {
+	list-style: none;
+}
+
+li {
+	padding-right: 50px;
+}
+
+.subtitulo {
+	font-family: "Sawarabi Mincho";
+	font-size: 20px;
+	/*color: #bc8f8f; rosybrown*/
+}
+
+.fotos-main {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-bottom: 25px;
+}
+
+.preciosa {
+	transform: translateX(50px);
+
+}
+
+.preciosa img {
+	border-radius: 50%;
+}
+
+.preciosa h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 0 purple;
+}
+
+.efecto {
+	transition: 2s;
+}
+
+.preciosa:hover h1 {
+	color: pink;
+	text-shadow: 1px 1px 0 #bc8f8f;
+	transition: .1s;
+}
+
+.preciosa:hover img {
+	box-shadow: 2px 5px 5px #bc8f8f;
+	transition: .1s;
+}
+
+.mielito {
+	transform: translateX(-50px);
+}
+
+.mielito img {
+	border-radius: 50%;
+}
+
+.mielito h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 0 red;
+}
+
+.mielito:hover h1 {
+	color: red;
+	text-shadow: 1px 1px 0 white;
+	transition: .1s;
+}
+
+
+.mielito:hover img {
+	box-shadow: 2px 5px 5px red;
+	transition: .1s;
+}
+
+/*imagenes*/
+
+.fotos {
+	margin: 30px;
+	font-size: 25px;
+	color: #bc8f8f; /*rosybrown*/
+	text-shadow: 1px 1px 0 white;
+}
+
+.fotos img {
+	transform: translateX(40px);
+	margin: 20px;
+	border-radius: 15px;
+}
+
+.footer {
+	background-color: #f0e68c; /*kahki*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-message {
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	font-size: 50px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #bc8f8f; /*rosybrown*/
+	text-shadow: 1px 1px 0 white;
+}
+
